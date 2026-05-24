@@ -15,37 +15,7 @@
   }
   .box {
     position: relative;
-    width: 600px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .clock {
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(40px);
-    color: #e6f0fcf6;
-    z-index: 10;
-  }
-  .clock span {
-    font-size: 80px;
-    width: 110px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-  }
-  .clock span::after {
-    font-size: 16px;
-    position: absolute;
-    bottom: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  #hrs::after {
-    content: "HOURES";
+   
     color: #0f0;
     font-weight: 600;
     margin-bottom: -10px;
